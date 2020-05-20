@@ -1,0 +1,13 @@
+<div class="layout-column align-items-center mt-50">
+
+  <section class="layout-row align-items-center justify-content-center">
+    <label>Input: </label>
+    <input type="text" class="large" placeholder="foo"
+            id="app-input" data-test-id="app-input" (keyup) = "onKey($event)" />
+  </section>
+
+  <section class="layout-row align-items-center justify-content-center">
+      <label>Output: </label>
+      <input type="text" class="large" id="app-output" data-test-id="app-output" value ={{output_word}} readonly/>
+    </section>
+</div>
